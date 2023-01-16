@@ -3,9 +3,9 @@ import dash_bootstrap_components as dbc
 
 #me = html.Img(src=get_asset_url('me.png'))
 linkedinCard = dbc.Card([
-    dbc.CardImg(src='assets/me.png', top=True),
+    dbc.CardImg(src='assets/me1.png', top=True),
     dbc.CardBody(
-        [html.H1([html.A(html.I(className="bi bi-linkedin"), href='https://www.linkedin.com/in/laura-lorenzi-14885a12/', target='__blank__'), " Laura L.", ], className="text-nowrap"),
+        [html.H1([html.A(html.I(className="bi bi-linkedin"), href='', target='__blank__'), " Laura L.", ], className="text-nowrap"),
             html.H3(" Happy Lifelong Learner",
                     className="text-primary"),
             html.Div("Wonderland Inc."),
